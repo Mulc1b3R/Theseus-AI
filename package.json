@@ -5,6 +5,7 @@
   "private": false,
   "author": "mojo",
   "main": "index.js",
+  
   "dependencies": {
     "@shoelace-style/shoelace": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.5",
