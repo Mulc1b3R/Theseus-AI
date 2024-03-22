@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/theseus-ai/static/css/main.19b63c49.css",
+    "main.js": "/theseus-ai/static/js/main.ab0a2169.js",
+    "static/js/453.935ddf9a.chunk.js": "/theseus-ai/static/js/453.935ddf9a.chunk.js",
+    "index.html": "/theseus-ai/index.html",
+    "main.19b63c49.css.map": "/theseus-ai/static/css/main.19b63c49.css.map",
+    "main.ab0a2169.js.map": "/theseus-ai/static/js/main.ab0a2169.js.map",
+    "453.935ddf9a.chunk.js.map": "/theseus-ai/static/js/453.935ddf9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b63c49.css",
+    "static/js/main.ab0a2169.js"
+  ]
+}
