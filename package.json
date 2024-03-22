@@ -5,13 +5,13 @@
   "private": false,
   "author": "mojo",
   "main": "index.js",
-
   "dependencies": {
     "@shoelace-style/shoelace": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@uiw/react-codemirror": "^4.19.9",
+    "babel": "^6.23.0",
     "css-select": "^5.1.0",
     "openai": "^3.2.1",
     "qr-creator": "^1.0.0",
