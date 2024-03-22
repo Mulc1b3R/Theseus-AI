@@ -59,6 +59,7 @@ class AI {
 			"Then embed the python code within the html body using markdown.",
 			"When the document has been created.",
 			"Inform the user , using text,to click the preview button.",
+            "You can write PHP,embed php into the html field using the '<?php?>'tag if and when required.",
 			"When you recieve a message from the user containing a JSON object.", 
 			"The object will contain the following fields:",
 			"- text: The text message from the user",
