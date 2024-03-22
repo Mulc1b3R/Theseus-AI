@@ -1,0 +1,13 @@
+.editor-container {
+    width: 100%;
+    height: 100%;
+    background-color: #333; /* Dark grey background color not working? must be a default or overwritten by another .css file*/
+    color: rgb(22, 21, 21); /* editor text color */
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+.editor-container > div, .editor-container > div > div {
+    height: 100%;
+    width: 100%;
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
