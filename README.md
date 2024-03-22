@@ -1,5 +1,7 @@
 # Theseus-AI
-Open AI gpt 3.5 Web Page Designer and editor. It allows you to create and design static web pages with ease. The tool is programmed using ReactJS and is designed to help individuals and teams build web pages faster.
+
+Open AI gpt 3.5 Web Page Designer and editor. Enables you to create and design web pages with ease.
+The tool is programmed using ReactJS and is designed to help individuals and teams build web pages faster.
 
 Demo:  https://mulc1b3r.github.io/Theseus-AI/
 
@@ -7,18 +9,32 @@ Demo:  https://mulc1b3r.github.io/Theseus-AI/
 - Built in Dev server for viewing Web Pages. 
 - AI Chat and HTML, CSS, and JS code generation using simple text based Promts.
 - Token and price tracker enables user to see the current usage.
+-  Python can be generated using "Markdown" in the html editor.
+-  PHP can be embeded within the html if required.
 
-## Limitations
-Due to the limitations of OpenAI's API, AI Web Designer cannot handle large documents with too much content.
+## Use.
+Clear the "Starting code" in the editor and populate the html window by requesting an html template , this will be auto generated upon request.
+Use the "Preview" window to view your code changes as you go.
+Requested .css or .js will be generated in the .css or .js windows. Writing , cutting and pasting areall enabled if you preffer the style in your
+html file just ask Theseus to give you the style tags in the (html) head . 
+Scripts can be embedded using <script> tags , again just request the tags via the chat text box.
+Theseus is capable of generating javascript for a multitude of purposes.
+Ask for img tags and useful urls. Links , iframes e.t.c to populate the web page as desired.
+Good quality Web pages can be spun up in no time.
+When you are happy - Click the download button.
+Job Done !
 
-The API has a maximum token limit of 4,000 per request, which means that the AI cannot generate large sections of code, or respond to the user when the document is too big.
+## Get Started.
+To use Theseus-AI just:
 
-## How to Use
-To use AI Web Designer, follow the steps below:
-
-1. Clone the project from the GitHub repository.
+1. Clone the repo.
 2. Run `npm install` to install the dependencies.
-3. Run `npm start` to start the development server.
+3. Run `npm start` to start the dev server.
 4. Access `http://localhost:3000` in your web browser.
 
-Once you have the tool up and running, you can start building your web page by asking the AI using the sidebar's chat. You can then customize the HTML, CSS, and JS code using the integrated code editor.
+Once you've set up the tool, you can begin constructing your webpage by interacting with the AI via the chat feature located in the sidebar.
+Next, you have the option to personalize the HTML, CSS, and JavaScript code utilizing the built-in code editor.
+
+#Credits
+Respect due : Carlos Sansón , mojo , zendog , mulciber . 
+
