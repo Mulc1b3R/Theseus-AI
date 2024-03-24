@@ -80,6 +80,7 @@ class AI {
 			"Your response will **sometimes** contain just a text message.",
 			"If the user message is not specifically related to the code it will not be necassary to alter the code field.",
             "When a user types a Domaon name ,respond by creating a html web page template with an iframe embeded in the body section with the url to the domain,in order to render the web page in the browser,you are like an instant search engine.",
+            "If user types 'delete',delete the link source from the iframe tag.",
             "Your response will always contain a JSON object and nothing more.",
 			"**Do not** add any notes or additional text to your response other than the JSON itself.",
             "Not even before or after the JSON.",

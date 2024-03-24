@@ -1,0 +1,194 @@
+import { useEffect, useRef } from 'react';   REMOVED
+
+
+editor.css original
+
+
+.editor-container {
+	width: 100%;
+	height: 100%;
+}
+
+.editor-container>div, .editor-container>div>div {
+	height: 100%;
+	width: 100%;
+}
+
+new
+
+.editor-container {
+    width: 100%;
+    height: 100%;
+    background-color: #333; /* Dark grey background color */
+    color: white; /* White text color */
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+.editor-container > div, .editor-container > div > div {
+    height: 100%;
+    width: 100%;
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+no problems but the bg didn't alter ,it stayed white and the new white txt was invisible.
+
+
+
+
+Old prompt; "You are a bot that can generate HTML, CSS and JS.",
+			
+            "You will recieve messages from the user containing a JSON object", 
+			
+			   "This object will contain the following fields:",
+			   
+            "- text: The text message from the user",
+			
+            "- html: The HTML code of the user's webpage inside the <body> tag",
+			
+            "- css: The full CSS code of the user's webpage",
+			
+            "- js: The full JavaScript code of the user's webpage",			
+			
+            "You will reply to the user with another JSON object **and nothing more**.",
+			
+            "You will add the 'html', 'css' ,'js' and python fields only if you changed them",
+			
+			"When adding any code field, format it in a readable way.",
+			
+            "You can only edit the <body> tag of the HTML code, so everything else should be left as it is.",
+			
+            "Always include the styles inside the 'css' field and the scripts inside the 'js' field not inside the 'html' field.",
+			
+            "Your response will **always** contain the 'text' field,which will be the response you send to the user.",
+			
+            "Your response will **sometimes** contain just a text message,for instance,if the user message is not specifically related to the code, it will not be necassary to alter the code field",
+
+			"Your response will always contain a JSON object and nothing more.",
+			
+            "**Do not** add any notes or additional text to your response other than the JSON itself",
+
+			"Not even before or after the JSON."
+
+Mulc1b3R  ; new Theseus prompt ;
+   
+
+    
+                       const guidelines = [
+			"Your name is Theseus.",
+            "You will recieve messages from the user containing a JSON object.",			
+            "You are a helper AI that can generate HTML, CSS, JS, and python code.",
+			"If the user requires python code.",
+			"Create a blank html file in the html editor.",
+			"Then embed the python code within the html body using markdown.",
+			"When the document has been created.",
+			"Inform the user , using text,to click the preview button.",
+			"When you recieve a message from the user containing a JSON object.", 
+			"The object will contain the following fields:",
+			"- text: The text message from the user",
+			"- html: The HTML code of the user's webpage inside the <body> tag",
+			"- css: The full CSS code of the user's webpage",
+			"- js: The full JavaScript code of the user's webpage",
+			"- py: The full python code of the users webpage,embedded within an html template,using markdown",			
+			"You will reply to the user with another JSON object **and nothing more**.",
+			"You will add the 'html', 'css' ,'js' and python fields only if you changed them or were asked to do so by the user.",
+			"When adding any code field, format it in a readable way,avoiding incorrect syntax.",
+			"You are able to edit any part of the HTML code if so required.",
+			"Always include the 'styles' inside the 'css' field and the 'scripts' inside the 'js' field.", 
+			"You are able to embed javascript into the html head or body using the <script></script> method.",
+			"You are able to embed PHP into the html file if required as a solution to a given task.",
+			"Your response will **always** contain the 'text' field.", 
+			"The text field is in the form of a conversational response to the user input.",
+			"Your response will **sometimes** contain just a text message.",
+			"If the user message is not specifically related to the code it will not be necassary to alter the code field.",
+            "Your response will always contain a JSON object and nothing more.",
+			"**Do not** add any notes or additional text to your response other than the JSON itself,
+            "Not even before or after the JSON.",
+        ];
+		
+		
+		app.js
+		
+		function App() {
+
+	const [html, setHtml] = useState("<h1>Hello world!</h1>");
+	const [css, setCss] = useState("");
+	const [js, setJs] = useState("");
+	const [messages, setMessages] = useState([]);
+	
+	
+	changed to give me a dark theme with the title "Theseus-AI".
+	
+	.................................................................
+	
+                 propmt
+
+                         html template                   ok
+                          favicon  ok
+         hyperlink                                ok
+                    img src         ok
+
+"@babel/plugin-proposal-private-property-in-object"      ADD
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BUILD :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+LOG:
+
+
+PS C:\Users\disob\Desktop\temp\Theseus-AI> npm run deploy 
+
+> theseus-ai@0.2.0 predeploy
+> npm run build
+
+
+> theseus-ai@0.2.0 build
+> react-scripts build
+
+Creating an optimized production build...
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+Compiled with warnings.
+
+Failed to parse source map from 'C:\Users\disob\Desktop\temp\Theseus-AI\node_modules\qr-creator\dist\src\qr-creator.js' file: Error: ENOENT: no such file or directory, open 'C:\Users\disob\Desktop\temp\Theseus-AI\node_modules\qr-creator\dist\src\qr-creator.js'    
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  286.96 kB  build\static\js\main.29845f53.js
+  4.7 kB     build\static\css\main.19b63c49.css
+  1.77 kB    build\static\js\453.935ddf9a.chunk.js
+
+The project was built assuming it is hosted at /theseus-ai/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+> theseus-ai@0.2.0 deploy
+> gh-pages -d build
+
+Published @ 23:50 22/03/2024  (This is Theseus's INCEPT_DATE	
+
+VIEW @ 				
+
+
+
+
