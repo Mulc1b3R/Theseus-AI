@@ -15,6 +15,9 @@ Demo:  https://mulc1b3r.github.io/Theseus-AI/
 -  Browse wesites "offline" , in "stealth" Mode via localhost :3000
 -  Watch live News Channels , Podcasts , Social Media , e.t.c
 
+  <img src="./public/wayback.png" alt="">
+
+
 ## Use.
 Clear the "Starting code" in the editor and populate the html window by requesting an html template , this will be auto generated upon request.
 Use the "Preview" window to view your code changes as you go.
