@@ -11,6 +11,9 @@ Demo:  https://mulc1b3r.github.io/Theseus-AI/
 - Token and price tracker enables user to see the current usage.
 -  Python can be generated using "Markdown" in the html editor.
 -  PHP can be embeded within the html if required.
+-  Built in AI WebSearch capability.Renders target page in user interface.
+-  Browse wesites "offline" , in "stealth" Mode via localhost :3000
+-  Watch live News Channels , Podcasts , Social Media , e.t.c
 
 ## Use.
 Clear the "Starting code" in the editor and populate the html window by requesting an html template , this will be auto generated upon request.
@@ -23,6 +26,20 @@ Ask for img tags and useful urls. Links , iframes e.t.c to populate the web page
 Good quality Web pages can be spun up in no time.
 When you are happy - Click the download button.
 Job Done !
+
+#Example Search:
+
+Search direct , Instant Search. via domain name.
+
+Just Type a DOMAIN NANE to go to the web page.
+e.g 
+    TYPE: rt.com
+    RESULT: Interactive Live news channal is rendered.Stream Live News.
+
+    TYPE: gutenburg.org
+    RESULT: Selection of 70,000 e-books for DOWNLOAD.
+
+    Use any existing domain name for instant search...
 
 ## Get Started.
 To use Theseus-AI just:
