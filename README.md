@@ -33,9 +33,9 @@ Keywords form the basis of a simple to use commend line interface.
 ```
 TYPE: openai
 
-AI: opens a second , larger openai user interface in screen capable of complex code generation tasks in a multitude of languages. (ZENDOG-UI).
+AI: opens a second , larger openai user interface in screen capable of complex code generation tasks in a multitude of languages. ZENDOG-UI.
 
-and answering questions on any subject. (All generated code is downloadable at a click).
+and answering questions on any subject. All generated code is downloadable at a click.
 ```
 ## Features
 - Built in Dev server for viewing Web Pages. 
