@@ -30,6 +30,9 @@ Good quality Web pages can be spun up in no time.
 When you are happy - Click the download button.
 Job Done !
 
+<img src="./public/zh.png" alt="">
+
+
 #Example Search:
 
 Search direct , Instant Search. via domain name.
