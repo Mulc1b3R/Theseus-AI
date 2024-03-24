@@ -3,7 +3,10 @@
 Open AI gpt 3.5 Web Page Designer and editor. Enables you to create and design web pages with ease.
 The tool is programmed using ReactJS and is designed to help individuals and teams build web pages faster.
 
-Demo:  https://mulc1b3r.github.io/Theseus-AI/
+<img src="./public/particles.png" alt="">
+
+Screnn grab of Theseus running  easy-particles.js interactive web app.
+
 
 ## Features
 - Built in Dev server for viewing Web Pages. 
