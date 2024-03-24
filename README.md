@@ -10,6 +10,19 @@ Use in conjunction with Web Scrapbook to grab all website files into one working
 
 Screnn grab of Theseus running  easy-particles.js interactive web app.
 
+# Interacting with theseus.
+
+The AI chat interface section is text input text out put.
+The user connects to openai server via an openai api key , which the user requires in order to use.
+Get openai key.
+Theseus accepts certain commands or "KEYWORDS" written in plain english and processes them accoringly.
+e.g.
+TYPE : any_domain_name.com   ( .org , .net , .co.uk .....)
+AI: Will respond by taking you to the given website and displaying it on screen instantly without any intermediary.
+
+TYPE: time?
+AI: Will give you the atomic clock , allowing you to acces the correct time in any country or time zone.
+
 
 ## Features
 - Built in Dev server for viewing Web Pages. 
