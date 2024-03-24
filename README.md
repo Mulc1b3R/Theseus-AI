@@ -29,6 +29,8 @@ TYPE: time?
 AI: Will give you the atomic clock , allowing you to acces the correct time in any country or time zone.
 ```
 
+Keywords form the basis of a simple to use commend line interface.
+
 ## Features
 - Built in Dev server for viewing Web Pages. 
 - AI Chat and HTML, CSS, and JS code generation using simple text based Promts.
