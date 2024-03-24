@@ -21,9 +21,11 @@ Theseus accepts certain commands or "KEYWORDS" written in plain english and proc
 e.g.
 
 TYPE : any_domain_name.com   ( .org , .net , .co.uk .....)
+
 AI: Will respond by taking you to the given website and displaying it on screen instantly without any intermediary.
 
 TYPE: time?
+
 AI: Will give you the atomic clock , allowing you to acces the correct time in any country or time zone.
 
 
