@@ -32,10 +32,11 @@ Job Done !
 Search direct , Instant Search. via domain name.
 
 Just Type a DOMAIN NANE to go to the web page.
+
 e.g 
+
     TYPE: rt.com
     RESULT: Interactive Live news channal is rendered.Stream Live News.
-
     TYPE: gutenburg.org
     RESULT: Selection of 70,000 e-books for DOWNLOAD.
 
