@@ -59,6 +59,9 @@ To use Theseus-AI just:
 Once you've set up the tool, you can begin constructing your webpage by interacting with the AI via the chat feature located in the sidebar.
 Next, you have the option to personalize the HTML, CSS, and JavaScript code utilizing the built-in code editor.
 
+<img src="./public/rt.png" alt="">
+
+
 #Credits
 Respect due : Carlos Sansón , mojo , zendog , mulciber . 
 
