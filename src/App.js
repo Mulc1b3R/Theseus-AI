@@ -25,7 +25,7 @@ function App() {
 `);
 	const [js, setJs] = useState("");
 	const [messages, setMessages] = useState([]);
-
+    const [python, setPython] = useState(''); 
 	const [loadingResponse, setLoadingResponse] = useState(false);
 
 	const [usedTokens, setUsedTokens] = useState("0");
@@ -126,6 +126,9 @@ function App() {
 						<Tab key="js" label="Code" icon="braces">
 							<Editor language="javascript" displayName="JS" value={js} onChange={setJs} />
 						</Tab>
+						<Tab key="python" label="Python" icon="python">
+                            <Editor language="python" displayName="Python" value={python} onChange={setPython} />
+                        </Tab>
 						</TabList>
 					
 				</div>
