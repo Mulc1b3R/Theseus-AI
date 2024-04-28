@@ -13,8 +13,9 @@ import AI from './model/AI.js';
 
 function App() {
 
-	const [html, setHtml] = useState("<center><h1>Theseus-AI</h1></center>");
+	const [html, setHtml] = useState('<center><h1>Theseus-AI</h1></center><iframe title="Embedded Content" width="100%" height="600" src="""></iframe>');
 
+	
 	const [css, setCss] = useState(`
   
     body {
@@ -25,7 +26,7 @@ function App() {
 `);
 	const [js, setJs] = useState("");
 	const [messages, setMessages] = useState([]);
-    const [python, setPython] = useState(""); 
+    const [txt, setText] = useState(""); 
 	const [loadingResponse, setLoadingResponse] = useState(false);
 
 	const [usedTokens, setUsedTokens] = useState("0");
@@ -126,8 +127,8 @@ function App() {
 						<Tab key="js" label="Code" icon="braces">
 							<Editor language="javascript" displayName="JS" value={js} onChange={setJs} />
 						</Tab>
-						<Tab key="python" label="Python" icon="python">
-                            <Editor language="python" displayName="Python" value={python} onChange={setPython} />
+						<Tab key="txt" label="txt" icon="txt">
+                            <Editor language="txt" displayName="txt" value={txt} onChange={setText} />
                         </Tab>
 						</TabList>
 					
