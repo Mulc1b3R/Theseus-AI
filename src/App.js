@@ -25,7 +25,7 @@ function App() {
 `);
 	const [js, setJs] = useState("");
 	const [messages, setMessages] = useState([]);
-    const [python, setPython] = useState(''); 
+    const [python, setPython] = useState(""); 
 	const [loadingResponse, setLoadingResponse] = useState(false);
 
 	const [usedTokens, setUsedTokens] = useState("0");
