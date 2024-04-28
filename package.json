@@ -6,6 +6,8 @@
   "author": "mojo",
   "main": "index.js",
   "dependencies": {
+    "@babel/plugin-transform-numeric-separator": "^7.24.1",
+    "@babel/plugin-transform-private-methods": "^7.24.1",
     "@shoelace-style/shoelace": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
