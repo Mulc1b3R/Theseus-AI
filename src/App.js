@@ -13,7 +13,7 @@ import AI from './model/AI.js';
 
 function App() {
 
-	const [html, setHtml] = useState('<center><h1>Theseus-AI</h1></center><iframe title="Embedded Content" width="100%" height="600" src="""></iframe>');
+	const [html, setHtml] = useState('<iframe title="psico we are digital" width="100%" height="600" src="https://psicodata.io/wordpress/""></iframe>');
 
 	
 	const [css, setCss] = useState(`
