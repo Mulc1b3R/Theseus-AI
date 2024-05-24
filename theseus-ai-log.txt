@@ -187,7 +187,28 @@ Find out more about deployment here:
 
 Published @ 23:50 22/03/2024  (This is Theseus's INCEPT_DATE	
 
-VIEW @ 				
+24/05/2024
+
+bug fix 1 ; 
+
+the build problem was created by adding my 'repo' name to the file path during the build process.
+it reads it from the "homepage":   in the package .json
+solution ;  edit to "hompage": "" ,   (leaving the field empty ).
+the file paths were all created with ' theseus-ai/static/css/ ' etc. So that they were all wrong.
+resulting in incorrect <link> tags in the index.html <head>
+
+this made everything inaccessable to the UI.(index.html after the build).
+
+bug 2 ; 
+
+black screen.
+
+
+bug 3 ; 
+
+manifest.json 
+
+
 
 
 
