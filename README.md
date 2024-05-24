@@ -1,10 +1,12 @@
 # Theseus-AI 
 
-State of the art open AI gpt 3.5 Web Page Designer , Domain Search Engine and Editor. Enables you to create and design web pages with ease.
-Grab Web Sites directly in the screen and Live edit with the help of Open AI gpt 3.5 .
-ReactJS  based interface designed to edit and create Existing Web Templates or Spin up from scratch.
-Grab source code  from any web page and paste into the HTML EDITOR to begin working.
-Use in conjunction with 'Hummingbird' to grab all website files into one working folder for re-working THEMES.
+* State of the art open AI gpt 3.5 Web Page Designer , Domain Search Engine and Editor.
+* Enables you to create and design web pages with ease.
+* Live stream news. (rt.com).
+* Grab Web Sites directly in the screen and Live edit with the help of Open AI gpt 3.5 .
+* React.JS  based interface designed to edit and create Existing Web Templates or Spin up from scratch.
+* Grab source code  from any web page and paste into the HTML EDITOR to begin working.
+* Use in conjunction with 'Hummingbird' to grab all website files into one working folder for re-working THEMES.
 
 <img src="./public/particles.png" alt="">
 
@@ -22,21 +24,13 @@ e.g.
 ```
 TYPE : any_domain_name.com   ( .org , .net , .co.uk .....)
 
-AI: Will respond by taking you to the given website and displaying it on screen instantly without any intermediary.
+AI: Will respond by taking you to the given website and displaying it on screen instantly without any intermediary.(unless the domain prevevents access).
 
 TYPE: time?
 
 AI: Will give you the atomic clock , allowing you to acces the correct time in any country or time zone.
 ```
 
-Keywords form the basis of a simple to use commend line interface.
-```
-TYPE: openai
-
-AI: opens a second , larger openai user interface in screen capable of complex code generation tasks in a multitude of languages. ZENDOG-UI.
-
-and answering questions on any subject. All generated code is downloadable at a click.
-```
 ## Features
 - Built in Dev server for viewing Web Pages. 
 - AI Chat and HTML, CSS, and JS code generation using simple text based Promts.
