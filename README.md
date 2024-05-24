@@ -62,7 +62,7 @@ Good quality Web pages can be spun up in no time.
 When you are happy - Click the download button.
 Job Done !
 
-<img src="./public/zh.png" alt="">
+<img src="./public/atomic-clock.png" alt="">
 
 
 #Example Search:
