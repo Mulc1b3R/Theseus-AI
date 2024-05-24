@@ -47,7 +47,7 @@ and answering questions on any subject. All generated code is downloadable at a 
 -  Browse wesites "offline" , in "stealth" Mode via localhost :3000
 -  Watch live News Channels , Podcasts , Social Media , e.t.c
 
-  <img src="./public/wayback.png" alt="">
+  <img src="./public/theseus-psico.png" alt="">
 
 
 ## Use.
