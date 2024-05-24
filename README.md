@@ -4,7 +4,7 @@ Open AI gpt 3.5 Web Page Designer , Domain Search Engine and Editor. Enables you
 Grab Web Sites directly in the screen and Live edit with the help of Open AI gpt 3.5 .
 ReactJS  based interface designed to edit and create Existing Web Templates or Spin up from scratch.
 Grab source code  from any web page and paste into the HTML EDITOR to begin working.
-Use in conjunction with Web Scrapbook to grab all website files into one working folder for re working THEMES.
+Use in conjunction with 'Hummingbird' to grab all website files into one working folder for re working THEMES.
 
 <img src="./public/particles.png" alt="">
 
