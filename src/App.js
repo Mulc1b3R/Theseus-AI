@@ -17,7 +17,10 @@ function App() {
 
 	
 	const [css, setCss] = useState(`
-  
+	body {
+		background-color: black;
+		color: white;
+	  }
   
 `);
 	const [js, setJs] = useState("");
