@@ -185,9 +185,23 @@ Find out more about deployment here:
 > theseus-ai@0.2.0 deploy
 > gh-pages -d build
 
-Published @ 23:50 22/03/2024  (This is Theseus's INCEPT_DATE	
+Published @ 23:50 22/03/2024  (This is Theseus's INCEPT_DATE)
 
-24/05/2024
+major problems with build ; not detected by vs code terminal which reports
+
+'no problems detected in the workspace'.
+
+if this is a syntax error the machine can't detect it.......
+
+zero day ?
+
+24/05/2024   two months later....DEPLOYED!!!
+
+https://psicodata.io/theseus-ai/index.html
+
+added ai-favicons   72*72  192*192   512*512  to 'public folder'.
+
+however some problems persist with the build process created by the META team @react .
 
 bug fix 1 ; 
 
@@ -201,12 +215,26 @@ this made everything inaccessable to the UI.(index.html after the build).
 
 bug 2 ; 
 
-black screen.
+black screen : error embedding the starter .css in the virtual window.
+causing it to be dragged in to the .html , making the blackscreen...
+
+  body {
+			background:black;
+		    color: white;
+      }
+
+needs to render in the styles window ,not the index.html
 
 
 bug 3 ; 
 
-manifest.json 
+public/manifest.json :   "start_url": ".",   // the  dot (.) is causing a (/) to be placed at the beggining of filepaths
+causing the file path problem to persist in a lesser form.
+
+i tried leaving the input field empty ; "start_url": " ",   so as to 'force it to recognize the root directory.
+ran another build -- again ,the problem persists. (/).added to paths.
+NOTE: the build actuall works after manual editing of the paths in index.html
+So that ,uploaded to server the app works a treat.
 
 
 
