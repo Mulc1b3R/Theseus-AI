@@ -86,8 +86,10 @@ Once you've set up the tool, you can begin constructing your webpage by interact
 Next, you have the option to personalize the HTML, CSS, and JavaScript code utilizing the built-in code editor.
 
 <img src="./public/rt.png" alt="">
-**************************************************************************************************************************************************
+******************************************************************************************************************
 
+![Alt text](snake.svg)
+********************************************************************************************************************
   metamask address ;
   ```
   0x63673528404C9B9394d4Ec6FA037ED825c8b0faa
